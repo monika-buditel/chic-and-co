@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 header{
     font-size: 20px;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 body{
     font-family: Pattaya;
 }
 header img{
-    display: flex;
+    justify-self: center;
     margin-top: 10px;
     width:350px;
     height: 40px;
 }
-header p{
+header #buttons{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#buttons{
+    /* display:inline-block; */
+    
+}
+#buttons p{
     display: inline-block;
-    align-content: center;
+    margin: 15px;
 }
 p > i{
     font-size: 26px;
