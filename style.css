@@ -19,3 +19,9 @@ header p{
 p > i{
     font-size: 26px;
 }
+footer {
+    background-color: rgb(229,255,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
