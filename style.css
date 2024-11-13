@@ -5,6 +5,14 @@ header{
     flex-direction: row;
     /* justify-content: center; */
 }
+header img{
+    /* margin: 0 auto;
+    position: relative;
+    left:10%; */
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
 body{
     font-family: Pattaya;
 }
@@ -15,12 +23,7 @@ header img{
     height: 40px;
 }
 header #buttons{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-#buttons{
-    /* display:inline-block; */
-    
+    margin-left: auto;
 }
 #buttons p{
     display: inline-block;
