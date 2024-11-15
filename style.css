@@ -54,6 +54,12 @@ header > hr{
 p > i{
     font-size: 26px;
 }
+main{
+    text-align: center;
+}
+main img{
+    width: 700px;
+}
 footer {
     background-color: rgb(167, 167, 167);
     display: flex;
