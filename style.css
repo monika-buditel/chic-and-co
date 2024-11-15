@@ -3,20 +3,16 @@ header{
     font-size: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* justify-content: center; */
-}
-header img{
-    /* margin: 0 auto;
-    position: relative;
-    left:10%; */
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
 }
 body{
     font-family: Pattaya;
 }
 header img{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
     justify-self: center;
     margin-top: 10px;
     width:350px;
@@ -25,9 +21,35 @@ header img{
 header #buttons{
     margin-left: auto;
 }
+header nav{
+    width:100%
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    padding-right:20px;
+}
+nav ul > li{
+    margin-right: 30px;
+    
+}
+li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+header > hr{
+   width:100%;
+    
+}
 #buttons p{
     display: inline-block;
     margin: 15px;
+    font-size:large;
 }
 p > i{
     font-size: 26px;
@@ -37,4 +59,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+footer h3{
+    font-weight: lighter;
 }
