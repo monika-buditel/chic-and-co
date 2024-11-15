@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 header{
@@ -9,7 +9,7 @@ header{
     /* justify-content: center; */
 }
 body{
-    font-family: Pattaya;
+    font-family: Tinos;
 }
 header img{
     position: absolute;
