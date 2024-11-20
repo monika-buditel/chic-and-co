@@ -48,12 +48,15 @@ header > hr{
    width:100%;
     
 }
-#buttons p{
+#buttons button{
     display: inline-block;
     margin: 15px;
     font-size:large;
+    background-color: transparent;
+    cursor: pointer;
+    border-style: none;
 }
-p > i{
+button > i{
     font-size: 26px;
 }
 main{
@@ -73,7 +76,28 @@ footer {
 footer h3{
     font-weight: lighter;
 }
-a{
+.banner a{
+    width:700px;
+    height:400px;
     display: flex;
     justify-content: center;
+    color:none;
+}
+.banner a:visited{
+    color: royalblue;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* color:#FFD700; */
+    position: relative;
+}
+.banner h4{
+    position:absolute;
+    font-size: 35px;
+    color:navy;
+    text-shadow: 0px 2px 4px whitesmoke;
+    bottom: 300px;
+    background-color: #0000003f;
 }
