@@ -106,11 +106,15 @@ footer h3{
     text-align: center;
     text-shadow: 0 1px 0 white;
 }
-.Likedimg {
+.product1 {
     display: flex;
     flex-direction: row;
     align-items: center; 
 }
-.Likedimg img {
-    margin-right: 10px; 
+i {
+    color: black;
+
+}
+h6 {
+    color: #fff;
 }
