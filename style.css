@@ -106,6 +106,39 @@ footer h3{
     text-align: center;
     text-shadow: 0 1px 0 white;
 }
+<<<<<<< HEAD
 #loginButton p{
     display: inline;
+=======
+.product1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+i {
+    color: black;
+
+}
+h6 {
+    color: #fff;
+}
+
+.Likedimg img {
+    margin-right: 10px; 
+}
+.h1manpage{
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.imgcenter{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+h5 {
+    color: #fff;
+>>>>>>> b76943c757acf548a955b96b66937ec659bacd13
 }
