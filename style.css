@@ -140,3 +140,7 @@ gap: 30px;
 h5 {
     color: #fff;
 }
+p {
+    color:rgb(231, 29, 29);
+    font-weight: bold;
+}
